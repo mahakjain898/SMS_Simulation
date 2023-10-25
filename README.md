@@ -1,6 +1,21 @@
 **SMS Simulation Exercise**
 
-Exercise tasks: 
+**How to run solution?**
+
+Step 0. Kindly make sure node is installed
+
+Step 1. Install Dependencies: Execute ```npm install``` to download all required node modules.
+
+Step 2. Run the Application: Start the application by running ```node index.js``` or ```npm start```.
+
+Step 3. Run Unit Tests: Execute ```npm test``` to run unit tests for the exercise.
+
+ClassDefinitions.js - Contains three classes namely Producer, Sender and ProgressMonitor
+index.js - Entry point of solution where we are creating instances of abovementioned classes to solve the problem statement
+index.test.js - Contains unit tests in Jest
+package.json - Contains configurational information to install dependecies...
+
+**Exercise tasks:**
 
 The objective is to simulate sending a large number of SMS alerts, like for an emergency alert serviceThe simulation consists of three parts:
 
@@ -15,13 +30,3 @@ The objective is to simulate sending a large number of SMS alerts, like for an e
 • Average time per message so far
 
 One instance each for the producer and the progress monitor will be started while a variable number of senders can be started with different mean processing time and error rate settings
-
-**How to run solution?**
-
-Step 0. Kindly make sure node is installed
-
-Step 1. Install Dependencies: Execute ```bash npm install``` to download all required node modules.
-
-Step 2. Run the Application: Start the application by running **node index.js** or **npm start**.
-
-Step 3. Run Unit Tests: Execute **npm test** to run unit tests for the exercise.
