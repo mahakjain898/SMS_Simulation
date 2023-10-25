@@ -109,8 +109,9 @@ class ProgressMonitor
                 totalFailed += sender.msgFail;
                 totalTimeElapsed += sender.totalTimeElapsed;
             }
+            
             console.log('\n');
-            console.log(`Total time :                                      ${totalTimeElapsed}`);
+            // console.log(`Total time :                                      ${totalTimeElapsed}`);
             const totalMessagesProcessed = totalSent + totalFailed;
             const averageTime = totalMessagesProcessed ? (totalTimeElapsed / totalMessagesProcessed) / 1000 : 0;
 
