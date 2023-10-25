@@ -10,6 +10,8 @@ Step 2. Run the Application: Start the application by running ```node index.js``
 
 Step 3. Run Unit Tests: Execute ```npm test``` to run unit tests for the exercise.
 
+**File Descriptions**
+
 ClassDefinitions.js - Contains three classes namely Producer, Sender and ProgressMonitor
 
 index.js - Entry point of solution where we are creating instances of abovementioned classes to solve the problem statement
